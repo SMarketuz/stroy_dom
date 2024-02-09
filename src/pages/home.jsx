@@ -10,26 +10,28 @@ import Tablee from '../components/table/table'
 
 const Home = () => {
     return (
-        <Box mx={5}>
+        <Box px={5} className='wrapper' mt={10} color={'white'}>
             <Heading>Prixod</Heading>
-            <Flex mt={5} gap={4}alignItems={{base: 'center' , md: 'flex-end'}} flexDirection={{base: 'column' ,md: 'row'}}>
-                <FormControl>
-                    <FormLabel>Kod</FormLabel>
-                    <Input type='text' placeholder='kod...' />
-                </FormControl>
+            <Box mx={5} >
+                <Flex mt={5} gap={4}alignItems={{base: 'center' , md: 'flex-end'}} flexDirection={{base: 'column' ,md: 'row'}}>
+                    <FormControl>
+                        <FormLabel>Kod</FormLabel>
+                        <Input type='text' placeholder='kod...' />
+                    </FormControl>
 
-                <FormControl>
-                    <FormLabel>Partiya</FormLabel>
-                    <Input type='text' placeholder='partiya...' />
-                </FormControl>
-                <FormControl>
-                    <FormLabel>Soni</FormLabel>
-                    <Input type='number' placeholder='son...' />
-                </FormControl>
+                    <FormControl>
+                        <FormLabel>Partiya</FormLabel>
+                        <Input type='text' placeholder='partiya...' />
+                    </FormControl>
+                    <FormControl>
+                        <FormLabel>Soni</FormLabel>
+                        <Input type='number' placeholder='son...' />
+                    </FormControl>
 
-                <Button bg={'gray'} _hover={{ bg: '' }} width={'300px'} color={'white'}>Saqlash</Button>
-            </Flex>
-            <Tablee />
+                    <Button bg={'gray'} _hover={{ bg: '' }} width={'300px'} color={'white'}>Saqlash</Button>
+                </Flex>
+                <Tablee />
+            </Box>
         </Box>
     )
 }

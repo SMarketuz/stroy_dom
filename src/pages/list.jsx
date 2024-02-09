@@ -13,17 +13,17 @@ import {
 import { FcSearch } from "react-icons/fc";
 const List = () => {
     return (
-        <Box>
+        <Box className='wrapper'mt={10} color={'white'}>
             <Heading>Spiska</Heading>
-            <Box mt={10} boxShadow={'2xl'} p={3} height={'730px'} overflow={'auto'}>
-                <Box position={'sticky'} display={'flex'} alignItems={'center'} border={'1px'} borderColor={'gray.300'} rounded={10} top={-3} width={'100%'} bg={'white'}>
+            <Box mt={10}  boxShadow={'dark-lg'} p={3} height={'730px'} overflow={'auto'}>
+                <Box position={'sticky'} display={'flex'} alignItems={'center'} border={'1px'} borderColor={'gray.300'} rounded={10} top={-3} width={'100%'} bg={'#050E17'}>
                     <Box borderRight={'1px'} p={2} borderColor={'gray.300'}>
                         <FcSearch fontSize={'30px'} />
                     </Box>
-                    <input type="text" style={{ border: 'none', outline: 'none', paddingLeft: '20px', width: '100%' }} placeholder='qidirish...' />
+                    <input type="text" style={{ border: 'none', outline: 'none', paddingLeft: '20px', width: '100%' ,background:'#050E17' }} placeholder='qidirish...' />
                 </Box>
                 <Table variant='simple'>
-                    <Thead position={'sticky'} top={9} bg={'white'}>
+                    <Thead position={'sticky'} top={9} bg={'#050E17'} >
                         <Tr>
                             <Th>Kod</Th>
                             <Th>Prihod soni</Th>

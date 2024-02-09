@@ -11,7 +11,7 @@ const Navbar = () => {
 
   
   return (
-    <Box width={'100%'} h={'10vh'} bg={'gray'} color={'white'}>
+    <Box width={'100%'} h={'10vh'} bg={'#233242'} color={'white'}>
       <Box className='wrapper' px={10} display={'flex'} alignItems={'center'} justifyContent={'space-between'} flexDirection={{base: 'column' , md: 'row'}} minH={'100%'}>
         {/* for logo */}
         <Link to={'/'}>

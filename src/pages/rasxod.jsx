@@ -9,7 +9,7 @@ import {
 import Tablee from '../components/table/table'
 const Rasxod = () => {
     return (
-        <Box px={5}>
+        <Box px={5} className='wrapper' mt={10} color={'white'}>
             <Heading>Rasxod</Heading>
             <Flex mt={5} gap={4} alignItems={{base: 'center' , md: 'flex-end'}} flexDirection={{base: 'column' ,md: 'row'}}>
                 <FormControl>
