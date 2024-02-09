@@ -1,0 +1,9 @@
+
+.wrapper {
+    max-width: 1434px;
+    margin: 0px auto;
+}
+
+body {
+    user-select: none;
+}
