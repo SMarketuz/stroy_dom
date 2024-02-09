@@ -8,7 +8,7 @@ import {
 } from '@chakra-ui/react'
 const Login = () => {
     return (
-        <Box display={'flex'} alignItems={'center'} justifyContent={'center'} minHeight={'100vh'} bg={'#050E17'} color={'white'}>
+        <Box display={'flex'} alignItems={'center'} justifyContent={'center'} minHeight={'100vh'} bg={'gray'}>
             <Box width={{base: '100%' , md: '400px'}} p={10} border={'1px'} borderColor={'white'} rounded={10}>
                 <FormControl isRequired>
                     <FormLabel>Username</FormLabel>

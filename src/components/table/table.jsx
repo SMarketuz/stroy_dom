@@ -13,10 +13,10 @@ import {
 } from '@chakra-ui/react'
 const Tablee = () => {
     return (
-        <Box className='wrapper' color={'white'}>
-            <Box mt={10} boxShadow={'dark-lg'} p={3} height={'645px'} overflow={'auto'}>
+        <Box color={'black'}>
+            <Box mt={10} boxShadow={'2xl'} p={3} height={'630px'} overflow={'auto'}>
                 <Table variant='simple'>
-                    <Thead position={'sticky'} top={-3} bg={'#050E17'}>
+                    <Thead position={'sticky'} top={-3} bg={'white'}>
                         <Tr>
                             <Th>Kod</Th>
                             <Th>Partiya</Th>

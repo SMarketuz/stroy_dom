@@ -10,9 +10,9 @@ import Tablee from '../components/table/table'
 
 const Home = () => {
     return (
-        <Box px={5} className='wrapper' mt={10} color={'white'}>
+        <Box px={5} className='wrapper' mt={10} >
             <Heading>Prixod</Heading>
-            <Box mx={5} >
+            <Box mx={5} color={'white'}>
                 <Flex mt={5} gap={4}alignItems={{base: 'center' , md: 'flex-end'}} flexDirection={{base: 'column' ,md: 'row'}}>
                     <FormControl>
                         <FormLabel>Kod</FormLabel>
